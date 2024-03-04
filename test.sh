@@ -1,0 +1,1 @@
+python hat/test.py -opt options/test/HAT-L_SRx8_ImageNet-pretrain.yml

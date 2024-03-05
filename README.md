@@ -1,5 +1,21 @@
 # 2nd place solution for PBVS 2024 Thermal Image Super-Resolution Challenge (TISR) - Track1
 
+## Enviroment
+
+- PyTorch >= 1.7 (Recommend NOT using torch 1.8!!! It would cause abnormal performance.)
+
+### Installation
+Install Pytorch first. Then,
+```
+pip install -r requirements.txt
+python setup.py develop
+```
+Install modified BasicSR which supports SSIMLoss:
+```
+cd BasicSR
+pip install -e .
+```
+
 ## Train model
 ```
 sh train.sh

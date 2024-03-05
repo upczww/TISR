@@ -10,7 +10,7 @@ Install Pytorch first. Then,
 pip install -r requirements.txt
 python setup.py develop
 ```
-Install modified BasicSR which supports SSIMLoss:
+Install modified BasicSR which supports SSIMLoss and MultiLoss:
 ```
 cd BasicSR
 pip install -e .
